@@ -38,10 +38,6 @@ course_id_to_idx = {course_id: idx+1 for idx, course_id in enumerate(all_course_
 idx_to_course_id = {idx+1: course_id for idx, course_id in enumerate(all_course_ids)}
 itemnum = len(course_id_to_idx)  # Update itemnum
 
-# Save course_id_to_idx
-with open("course_id_to_idx.pkl", "wb") as f:
-    pickle.dump(course_id_to_idx, f)
-
 # Extract course grade information, assuming course ID format like 'CSE 400', grade is the first digit
 def extract_grade(cid):
     parts = cid.split()
