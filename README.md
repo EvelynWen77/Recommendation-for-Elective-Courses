@@ -6,11 +6,10 @@
 
 **Group Members:** `Zimo.Wen` `Yingchao.Jian` `Jiaqi.Dong` `Zeyuan.Zhao`
 
-Data Processing & ML Model : `Zimo.Wen`  `Jiaqi.Dong` 
+Branch main -- Data Processing & ML Model : `Zimo.Wen`  `Jiaqi.Dong` 
 
-Frontend Development : `Yingchao.Jian`
+Branch web-dev -- Frontend Development : `Yingchao.Jian`
 
-Backend Development : `Zeyuan.Zhao`
+Brabch backend -- Backend Development : `Zeyuan.Zhao`
 
-
-
+**doc:** User case & Presentation
