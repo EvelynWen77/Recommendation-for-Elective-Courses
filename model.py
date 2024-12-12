@@ -1,3 +1,34 @@
+"""Course Recommendation System using Sequence-Aware Self-Attention Recommendation (SASRec) Model.
+
+This module implements a recommender system for course selection using a sequence-aware 
+self-attention model that incorporates:
+- Student course history
+- Course grade information
+- Course content keywords
+
+Key Features:
+- Uses Transformer-based architecture for sequence modeling
+- Integrates course metadata (grades, keywords)
+- Supports personalized course recommendations
+
+Dependencies:
+- tensorflow
+- numpy
+- pandas
+- scikit-learn
+
+Example:
+    trainer = SASRecTrainer(usernum, itemnum, gradenum, vocab_size, args, mode="train")
+    trainer.train(train_inputs_seq, train_inputs_grades, train_inputs_contents, 
+                  train_pos, train_neg, course_text_indices, max_text_len, epochs=10)
+    recommendations = trainer.recommend(student_data, course_data)
+
+Note:
+    Requires pre-processed CSV files: 
+    - UW_Courses_with_keywords.csv
+    - students_interest.csv
+    - students_info.csv
+"""
 import tensorflow as tf
 import numpy as np
 import pandas as pd
