@@ -1,3 +1,17 @@
+"""
+Course Recommendation System using SASRec (Self-Attentive Sequential Recommendation) Model
+
+This module provides functionality for generating course recommendations for students
+based on their historical course data and interests using a trained SASRec model.
+
+The script loads pre-processed metadata and generates 
+personalized course recommendations.
+
+Dependencies:
+- pandas
+- pickle
+- tensorflow (implied by the model)
+"""
 import pandas as pd
 from model import SASRecTrainer, process_student_data, Args
 import pickle
