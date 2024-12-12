@@ -11,7 +11,7 @@ const { Title } = Typography;
 const headerStyle: React.CSSProperties = {
   textAlign: 'center',
   color: '#fff',
-  height: 200,
+  height: 250,
   lineHeight: '64px',
   backgroundColor: 'white',
 };
@@ -19,6 +19,7 @@ const headerStyle: React.CSSProperties = {
 const contentStyle: React.CSSProperties = {
   margin: '5%',
   color: '#fff',
+  paddingBottom: '100px'
 };
 
 const layoutStyle: React.CSSProperties = {

@@ -10,6 +10,10 @@
   margin-right: 50px;
 }
 
+.UW-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
 
 .App-header {
   background-color: #282c34;
