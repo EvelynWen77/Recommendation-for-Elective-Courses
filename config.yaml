@@ -1,0 +1,16 @@
+data_paths:
+  courses: "data/UW_Courses_with_keywords.csv"
+  students_interests: "data/students_interest.csv"
+  students_info: "data/students_info.csv"
+
+output_paths:
+  weights: "models/sasrec_weights.weights.h5"
+  mappings: "models/mapping_data.pkl"
+
+model_parameters:
+  maxlen: 50
+  hidden_units: 50
+  dropout_rate: 0.2
+  num_blocks: 2
+  num_heads: 5
+  learning_rate: 0.001

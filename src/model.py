@@ -52,9 +52,9 @@ args = Args()
 
 # 2. Load and preprocess data
 # Load data
-course_info = pd.read_csv("UW_Courses_with_keywords.csv")      # Includes 'Course ID', 'Course Name', 'Key Words'
-student_info = pd.read_csv("students_interest.csv")            # Includes 'StudentID', 'Interest_1', 'Interest_2', 'history Courses'
-student_grades = pd.read_csv("students_info.csv")              # Includes 'StudentID', 'Grade', 'Major'
+course_info = pd.read_csv("data/UW_Courses_with_keywords.csv")      # Includes 'Course ID', 'Course Name', 'Key Words'
+student_info = pd.read_csv("data/students_interest.csv")            # Includes 'StudentID', 'Interest_1', 'Interest_2', 'history Courses'
+student_grades = pd.read_csv("data/students_info.csv")              # Includes 'StudentID', 'Grade', 'Major'
 usernum = len(student_grades)
 
 # Merge student information
